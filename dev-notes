@@ -1,0 +1,38 @@
+# A collection of notes for myself and for other developers
+
+////////////////////////////////////////////////////////////////////////
+//
+// DEV NOTES
+//
+// The return from the API is default to JSON.  You can use "format=" to change
+// the return to: atom, bib, json (default), keys, versions, or export format
+//
+// For JSON return, use json_decode($string) and you get an object array
+// so you can refer to specific data as $return[#]->variable
+//
+// For item-level requests, append "include=bib" to the request and the API
+// will return the bibliographic citation within variable "bib" for each item.
+// Formatting options for the bib ARE available.
+//
+// For returning a specific bibliographic citation style, whenever you have
+// format or include/content parameters calling bib/citation, you can use additional
+// parameter of style=<csl name>.  <csl name> can be the filename (without extension)
+// of any style in the Zotero Style Repository, or can be a direct URL to a .csl file
+//
+// For embedding CoINS data, add it to the include paraementer as a comma-separated list
+// example:  include=bib,coins,data
+// Will include a bib and coins section into the array of items retrieved, so $var->coins
+// Note to include "data" so that the API sends back all fields with each item.
+//
+//////////////////////////////////////////////////////////////////////////
+// BibBuilder Layout
+//
+// junkyard.php - Dev test graveyard
+// config.php - 
+// displaytype.php - Displays specific items in Zotero collection by itemType; allows user to select through drop down menu.
+// displayall.php - Displays all items in the collection.
+// *collectiondisplay.php - Will display all items within a specific collection
+///////////////////////////////////////////////////////////////////////////
+// PRACTICE NOTE: BE AWARE OF WHERE '/', '&', and '?' are in the URL string
+// construction process. CONVENTION USED HERE: Finish a hanging URL with a /
+//
