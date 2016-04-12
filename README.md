@@ -16,19 +16,19 @@ What is next is to actually program the presentation layer.  I plan to use prima
 The following is a list of possible features BibBuilder will have, as well as a list of things that would be awesome to add in time.
 
 ### DISPLAY
-[ ] Display entire collection as a bibliography
-[ ] Display by itemtype (articles only, books only, etc)
-[ ] Display list of recently added/edited items
-[ ] Display what is in library’s trash (strike this?)
-[ ] All displayed citation’s should be Zotero-compatible, so a user can pick up citations from the online bibliography and add to their own Zotero library using the Z button
-[ ] Option to display specific saved searches
+- [ ] Display entire collection as a bibliography
+- [ ] Display by itemtype (articles only, books only, etc)
+- [ ] Display list of recently added/edited items
+- [ ] Display what is in library’s trash (strike this?)
+- [ ] All displayed citation’s should be Zotero-compatible, so a user can pick up citations from the online bibliography and add to their own Zotero library using the Z button
+- [ ] Option to display specific saved searches
 
 ### SEARCH
-[ ] Search by itemtype (same thing as displaying by itemtype, but can allow for search that can limit by itemtype **and** keyword search)
-[ ] Search by query - Searches titles and individual creator fields by default
-[ ] Search by modification after a specified time (I have to test bounds of this feature, may be tied to Zotero version changes)
-[ ] Search by tags
+- [ ] Search by itemtype (same thing as displaying by itemtype, but can allow for search that can limit by itemtype **and** keyword search)
+- [ ] Search by query - Searches titles and individual creator fields by default
+- [ ] Search by modification after a specified time (I have to test bounds of this feature, may be tied to Zotero version changes)
+- [ ] Search by tags
 
 ### ADD
-[ ] Allow BibBuilder users to contribute to the group library. I see this as a great feature, but secondary to accomplish since it can be done through Zotero already.
+- [ ] Allow BibBuilder users to contribute to the group library. I see this as a great feature, but secondary to accomplish since it can be done through Zotero already.
 
